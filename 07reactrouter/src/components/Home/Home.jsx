@@ -1,11 +1,10 @@
-import React from 'react'
-
-function Home() {
-  return (
-    <div>
-      Home
-    </div>
-  )
+import React from 'react';
+import {Link} from 'react-router-dom';
+import Slider from '../Slider/Slider';
+export default function Home() {
+    return (
+        <div>
+          <Slider/>
+        </div>
+    );
 }
-
-export default Home
